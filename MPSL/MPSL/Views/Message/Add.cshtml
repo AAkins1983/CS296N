@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Add Message";
+}
+<div>
+    <form method="post">
+        <div>
+            <label for="MessageText">Message</label><br />
+            <input name="message" />
+        </div>
+        <div>
+            <label for="Date">Date</label><br />
+            <input name="date" />
+        </div>
+        <div>
+            <label for="User">From</label><br />
+            <input name="user" />
+        </div>
+        <div>
+            <label for="Email">User's Email</label><br />
+            <input name="email" />
+        </div>        
+        <div>
+            <input type="submit" value="Enter" class="btn btn-success" />
+        </div>
+    </form>
+</div>
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>

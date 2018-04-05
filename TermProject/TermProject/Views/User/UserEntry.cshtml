@@ -1,0 +1,24 @@
+﻿@model MagicPonySparkleLand.Models.User
+@{
+    ViewData["Title"] = "User";
+}
+<div>
+    <form method="post">
+        <div>
+            <label for="Name">Name</label><br />
+            <input name="name" value="@Model.Name" />
+        </div>
+        <div>
+            <label for="Email">Email</label><br />
+            <input name="email" value="@Model.Email" />
+        </div>
+        <input name="authorid" value="@Model.UserID" type="hidden" />
+        <input name="bookid" value="@Model.MessageID" type="hidden" />
+        <div>
+            <input type="submit" value="Enter" />
+        </div>
+    </form>
+</div>
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>

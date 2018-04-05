@@ -1,0 +1,11 @@
+C:\Users\TempUser\Desktop\Streamline\Streamline\obj\Debug\netcoreapp2.0\Streamline.csprojResolveAssemblyReference.cache
+C:\Users\TempUser\Desktop\Streamline\Streamline\obj\Debug\netcoreapp2.0\Streamline.csproj.CoreCompileInputs.cache
+C:\Users\TempUser\Desktop\Streamline\Streamline\obj\Debug\netcoreapp2.0\Streamline.AssemblyInfoInputs.cache
+C:\Users\TempUser\Desktop\Streamline\Streamline\obj\Debug\netcoreapp2.0\Streamline.AssemblyInfo.cs
+C:\Users\TempUser\Desktop\Streamline\Streamline\bin\Debug\netcoreapp2.0\Streamline.deps.json
+C:\Users\TempUser\Desktop\Streamline\Streamline\bin\Debug\netcoreapp2.0\Streamline.runtimeconfig.json
+C:\Users\TempUser\Desktop\Streamline\Streamline\bin\Debug\netcoreapp2.0\Streamline.runtimeconfig.dev.json
+C:\Users\TempUser\Desktop\Streamline\Streamline\bin\Debug\netcoreapp2.0\Streamline.dll
+C:\Users\TempUser\Desktop\Streamline\Streamline\bin\Debug\netcoreapp2.0\Streamline.pdb
+C:\Users\TempUser\Desktop\Streamline\Streamline\obj\Debug\netcoreapp2.0\Streamline.dll
+C:\Users\TempUser\Desktop\Streamline\Streamline\obj\Debug\netcoreapp2.0\Streamline.pdb

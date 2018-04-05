@@ -1,0 +1,10 @@
+C:\Users\AAkin_000\Desktop\MPSL\MPSL\obj\MCD\Debug\netcoreapp2.0\MPSL.csproj.CoreCompileInputs.cache
+C:\Users\AAkin_000\Desktop\MPSL\MPSL\obj\MCD\Debug\netcoreapp2.0\MPSL.AssemblyInfoInputs.cache
+C:\Users\AAkin_000\Desktop\MPSL\MPSL\obj\MCD\Debug\netcoreapp2.0\MPSL.AssemblyInfo.cs
+C:\Users\AAkin_000\Desktop\MPSL\MPSL\bin\MCD\Debug\netcoreapp2.0\MPSL.deps.json
+C:\Users\AAkin_000\Desktop\MPSL\MPSL\bin\MCD\Debug\netcoreapp2.0\MPSL.runtimeconfig.json
+C:\Users\AAkin_000\Desktop\MPSL\MPSL\bin\MCD\Debug\netcoreapp2.0\MPSL.runtimeconfig.dev.json
+C:\Users\AAkin_000\Desktop\MPSL\MPSL\bin\MCD\Debug\netcoreapp2.0\MPSL.dll
+C:\Users\AAkin_000\Desktop\MPSL\MPSL\bin\MCD\Debug\netcoreapp2.0\MPSL.pdb
+C:\Users\AAkin_000\Desktop\MPSL\MPSL\obj\MCD\Debug\netcoreapp2.0\MPSL.dll
+C:\Users\AAkin_000\Desktop\MPSL\MPSL\obj\MCD\Debug\netcoreapp2.0\MPSL.pdb

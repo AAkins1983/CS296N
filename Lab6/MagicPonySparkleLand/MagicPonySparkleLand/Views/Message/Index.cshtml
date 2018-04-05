@@ -1,0 +1,15 @@
+﻿@model List<MagicPonySparkleLand.Models.Message>
+@{
+    ViewData["Title"] = "Message List";
+}
+
+@foreach (var m in Model)
+{
+    @:Message: @m.MessageText <br />
+    @:Date: @m.Date.ToString("yyyy") <br />
+    foreach (var u in m.Users)
+    {
+        @:From: @u.Name <br />
+        @:Email: @u.Email <br />
+    }
+}

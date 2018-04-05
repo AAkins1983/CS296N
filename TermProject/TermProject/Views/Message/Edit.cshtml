@@ -1,0 +1,43 @@
+﻿@using MagicPonySparkleLand.Models
+@model MagicPonySparkleLand.Models.Message
+@{
+    ViewData["Title"] = "Edit Message";
+}
+<div>
+    <form method="post">
+        <div>
+            <label for="messageText">Message</label><br />
+            <input asp-for="@Model.MessageText" />
+        </div>
+        <div>
+            <label for="date">Date</label><br />
+            <input asp-for="@Model.Date" />
+        </div>
+        <input type="hidden" asp-for="@Model.MessageID" />
+
+        @foreach (User u in Model.Users)
+        {
+            @:User Name: @u.Name
+        }
+
+        <p>
+            <input type="submit" value="Enter" />
+        </p>
+    </form>
+    <br />
+    <form method="post" asp-controller="User" asp-action="Add">
+        <div>
+            <label>Name</label><br />
+            <input name="name" />
+            <label>Email</label><br />
+            <input name="email" />
+            <input type="hidden" name="messageid" value="@Model.MessageID" />
+        </div>
+        <div>
+            <input type="submit" value="Add User" />
+        </div>
+    </form>
+</div>
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>

@@ -1,0 +1,50 @@
+﻿@using MPSL.Models
+@model MPSL.Models.Message
+@{
+    ViewData["Title"] = "Edit Message";
+}
+<div>
+    <form method="post">
+        <div>
+            <label for="MessageText">Message</label><br />
+            <input asp-for="@Model.MessageText" />
+        </div>
+        <div>
+            <label for="Date">Date</label><br />
+            <input asp-for="@Model.Date" />
+        </div>
+        <input type="hidden" asp-for="@Model.MessageID" />
+
+        @foreach (MessUser mu in Model.MessUsers)
+        {
+            @:Email: @mu.Email <br />
+            @:Username: @mu.Username
+        }
+
+        <p>
+            <input type="submit" value="Enter" class="btn btn-success" />
+        </p>
+
+    </form>
+    <br />
+    <form method="post" asp-controller="User" asp-action="Add">
+        <div>
+            <label>First Name</label><br />
+            <input name="fname" /><br />
+            <label>Last Name</label><br />
+            <input name="lname" />
+            <label>Email</label><br />
+            <input name="email" />
+            <label>Username</label><br />
+            <input name="username" />
+            <input type="hidden" name="bookid" value="@Model.MessageID" />
+        </div>
+        <div>
+            <input type="submit" value="Add User" class="btn btn-secondary" />
+        </div>
+    </form>
+</div>
+<br />
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>

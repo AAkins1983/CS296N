@@ -1,0 +1,66 @@
+﻿@model CommunityInfo.Models.QuizInfo
+
+@{
+    ViewData["Title"] = "Quiz";
+}
+
+<DOCTYPE html>
+
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Quiz</title>
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    </head>
+    <body>
+            <div><h1>Magic Pony Land Trivia!</h1></div>
+            <div class="panel-body">
+                <form class="p-a-1" asp-action="Quiz" method="post">
+                    <div class="form-group">
+                        <div>
+                            <label asp-for="Question1">When was Magic Pony Sparkle Land founded?</label><br />
+                            @Html.RadioButton("Question1", "a") 1 B.C. <br />
+                            @Html.RadioButton("Question1", "b") 1900 <br />
+                            @Html.RadioButton("Question1", "c") 2018 <br />
+                        </div>
+                        <div>
+                            <label for="Question2">Who is the mayor of Magic Pony Sparkle Land?</label><br />
+                            @Html.RadioButton("Question2", "a") Twighlight Sparkle <br />
+                            @Html.RadioButton("Question2", "b") Pinkie Pie <br />
+                            @Html.RadioButton("Question2", "c") Oprah <br />
+                        </div>
+                        <div>
+                            <label for="Question3">How many magic ponies inhabit Magic Pony Sparkle Land?</label><br />
+                            @Html.RadioButton("Question3", "a") 4 <br />
+                            @Html.RadioButton("Question3", "b") 999,999,999 <br />
+                            @Html.RadioButton("Question3", "c") 500 <br />
+                        </div>
+                        <div>
+                            <label for="Question4">What is the Magic Pony Sparkle Land mascot?</label><br />
+                            @Html.RadioButton("Question4", "a") Sparkly Pony (duh) <br />
+                            @Html.RadioButton("Question4", "b") Sloth <br />
+                            @Html.RadioButton("Question4", "c") Ostrich <br />
+                        </div>
+                        <div>
+                            <label for="Question5">Here is another question?</label><br />
+                            @Html.RadioButton("Question5", "a") This is not the right answer <br />
+                            @Html.RadioButton("Question5", "b") Neither is this <br />
+                            @Html.RadioButton("Question5", "c") Woohoo! <br />
+                        </div>
+                        <div>
+                            <button class="btn btn-primary" type="submit">
+                                Submit
+                                @*Right or wrong?
+                                    Total number of right answers.
+                                    Next question*@
+                            </button>
+                            <div class="text-center">
+                                @ViewData["Message"] <br />
+                                @ViewData["NumCorrect"]
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </body>
+</html>

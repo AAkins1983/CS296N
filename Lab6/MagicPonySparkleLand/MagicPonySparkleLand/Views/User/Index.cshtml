@@ -1,0 +1,13 @@
+﻿@model List<MagicPonySparkleLand.Models.User>
+@{
+    ViewData["Title"] = "User List";
+}
+@foreach (var u in Model)
+{
+    @:<p>
+        @:Name: @u.Name <br />
+        @:Email: @u.Email <br />
+        <a asp-action="Edit" asp-route-id="@u.UserID">Edit</a>
+        <a asp-action="Delete" asp-route-id="@u.UserID">Delete</a>
+        @:</p>
+}

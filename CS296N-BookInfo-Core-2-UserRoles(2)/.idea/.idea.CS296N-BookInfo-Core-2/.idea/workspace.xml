@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc9b34bc-e690-42b5-bc42-8924225efc35" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS296N-BookInfo-Core-2/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CS296N-BookInfo-Core-2/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS296N-BookInfo-Core-2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CS296N-BookInfo-Core-2/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/BookInfo/Views/Book/Add.cshtml" afterPath="$PROJECT_DIR$/BookInfo/Views/Book/Add.cshtml" />
+      <change beforePath="$PROJECT_DIR$/BookInfo/Views/Book/Edit.cshtml" afterPath="$PROJECT_DIR$/BookInfo/Views/Book/Edit.cshtml" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BookInfo/Views/Author/AuthorEntry.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Models/Author.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Models/Book.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Controllers/BookController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Repositories/AuthorRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Repositories/IBookRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Repositories/BookRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Repositories/IAuthorRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo.Tests/AuthorTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo.Tests/FakeAuhtorRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Views/Book/Add.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo.Tests/FakeBookRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo.Tests/BookTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Controllers/AuthorController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Views/Book/Edit.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Views/Book/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BookInfo/Views/Author/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BookInfo.Tests/BookTests.cs" />
+        <option value="$PROJECT_DIR$/BookInfo/Repositories/IBookRepository.cs" />
+        <option value="$PROJECT_DIR$/BookInfo.Tests/FakeAuhtorRepository.cs" />
+        <option value="$PROJECT_DIR$/BookInfo.Tests/FakeBookRepository.cs" />
+        <option value="$PROJECT_DIR$/BookInfo.Tests/AuthorTests.cs" />
+        <option value="$PROJECT_DIR$/BookInfo/Views/Book/Index.cshtml" />
+        <option value="$PROJECT_DIR$/BookInfo/Repositories/BookRepository.cs" />
+        <option value="$PROJECT_DIR$/BookInfo/Models/Book.cs" />
+        <option value="$PROJECT_DIR$/BookInfo/Repositories/AuthorRepository.cs" />
+        <option value="$PROJECT_DIR$/BookInfo/Repositories/IAuthorRepository.cs" />
+        <option value="$PROJECT_DIR$/BookInfo/Views/Book/BookEntry.cshtml" />
+        <option value="$PROJECT_DIR$/BookInfo/Views/Author/Page1.cshtml" />
+        <option value="$PROJECT_DIR$/BookInfo/Views/Book/AddBook.cshtml" />
+        <option value="$PROJECT_DIR$/BookInfo/Controllers/AuthorController.cs" />
+        <option value="$PROJECT_DIR$/BookInfo/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/BookInfo/Controllers/BookController.cs" />
+        <option value="$PROJECT_DIR$/BookInfo/Views/Book/Add.cshtml" />
+        <option value="$PROJECT_DIR$/BookInfo/Views/Book/Edit.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CS296N-BookInfo-Core-2 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/BookInfo/bin/Debug/netcoreapp2.0/BookInfo.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BookInfo" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/BookInfo/BookInfo.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc9b34bc-e690-42b5-bc42-8924225efc35" name="Default" comment="" />
+      <created>1518133895265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518133895265</updated>
+      <workItem from="1518133897609" duration="1340000" />
+      <workItem from="1520518353328" duration="450000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24050000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="740" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3478261" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BookInfo/Controllers/BookController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="62" column="45" lean-forward="false" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+          <folding>
+            <marker date="1520488072000" expanded="false" signature="6:139" ph="..." />
+            <marker date="1520488072000" expanded="true" signature="171:2251" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="296:2249" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="401:459" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="576:676" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="686:1136" ph="/* TODO: Provide views for these actions ... */" />
+            <marker date="1520488072000" expanded="true" signature="1256:1303" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1425:1771" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1548:1677" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1830:1901" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1975:2090" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="2144:2243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Controllers/AuthorController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding>
+            <marker date="1520023355000" expanded="false" signature="6:222" ph="..." />
+            <marker date="1520023355000" expanded="true" signature="254:1616" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="303:1614" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="412:463" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="536:644" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="792:954" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="1013:1103" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="1220:1453" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="1270:1357" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="1507:1608" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Views/Book/Edit.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <marker date="1520519305000" expanded="true" signature="52:94" ph="@..." />
+            <marker date="1520519305000" expanded="true" signature="96:1132" ph="&lt;div.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="106:673" ph="&lt;form.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="135:254" ph="&lt;div.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="263:392" ph="&lt;div.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="467:553" ph="@..." />
+            <marker date="1520519305000" expanded="true" signature="503:553" ph="{...}" />
+            <marker date="1520519305000" expanded="true" signature="571:661" ph="&lt;p.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="688:1125" ph="&lt;form.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="758:1002" ph="&lt;div.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="1011:1113" ph="&lt;div.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="1139:1190" ph="&lt;p.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <marker date="1520005805000" expanded="true" signature="0:36" ph="@..." />
+            <marker date="1520005805000" expanded="true" signature="128:604" ph="&lt;nav.../&gt;" />
+            <marker date="1520005805000" expanded="true" signature="200:595" ph="&lt;ul.../&gt;" />
+            <marker date="1520005805000" expanded="true" signature="228:345" ph="&lt;li.../&gt;" />
+            <marker date="1520005805000" expanded="true" signature="350:461" ph="&lt;li.../&gt;" />
+            <marker date="1520005805000" expanded="true" signature="466:587" ph="&lt;li.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Views/Book/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1520005805000" expanded="true" signature="34:75" ph="@..." />
+            <marker date="1520005805000" expanded="true" signature="77:442" ph="@..." />
+            <marker date="1520005805000" expanded="true" signature="102:442" ph="{...}" />
+            <marker date="1520005805000" expanded="true" signature="215:260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Views/Book/Add.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <marker date="1520519224000" expanded="true" signature="0:41" ph="@..." />
+            <marker date="1520519224000" expanded="true" signature="43:732" ph="&lt;div.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="53:725" ph="&lt;form.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="82:198" ph="&lt;div.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="207:331" ph="&lt;div.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="340:460" ph="&lt;div.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="469:611" ph="&lt;div.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="619:713" ph="&lt;div.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="734:785" ph="&lt;p.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Controllers/BookController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <folding>
+            <marker date="1520488072000" expanded="false" signature="6:139" ph="..." />
+            <marker date="1520488072000" expanded="true" signature="171:2251" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="296:2249" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="401:459" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="576:676" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="686:1136" ph="/* TODO: Provide views for these actions ... */" />
+            <marker date="1520488072000" expanded="true" signature="1256:1303" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1425:1771" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1548:1677" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1830:1901" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1975:2090" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="2144:2243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo.Tests/BookTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Controllers/BookController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520488072000" expanded="false" signature="6:139" ph="..." />
+            <marker date="1520488072000" expanded="true" signature="171:2251" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="296:2249" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="401:459" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="576:676" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="686:1136" ph="/* TODO: Provide views for these actions ... */" />
+            <marker date="1520488072000" expanded="true" signature="1256:1303" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1425:1771" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1548:1677" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1830:1901" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1975:2090" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="2144:2243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo.Tests/BookTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Controllers/BookController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520488072000" expanded="false" signature="6:139" ph="..." />
+            <marker date="1520488072000" expanded="true" signature="171:2251" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="296:2249" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="401:459" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="576:676" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="686:1136" ph="/* TODO: Provide views for these actions ... */" />
+            <marker date="1520488072000" expanded="true" signature="1256:1303" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1425:1771" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1548:1677" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1830:1901" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1975:2090" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="2144:2243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo.Tests/BookTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Controllers/BookController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520488072000" expanded="false" signature="6:139" ph="..." />
+            <marker date="1520488072000" expanded="true" signature="171:2251" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="296:2249" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="401:459" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="576:676" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="686:1136" ph="/* TODO: Provide views for these actions ... */" />
+            <marker date="1520488072000" expanded="true" signature="1256:1303" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1425:1771" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1548:1677" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1830:1901" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1975:2090" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="2144:2243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo.Tests/BookTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo.Tests/BookTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Controllers/BookController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="60" column="9" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <marker date="1520488072000" expanded="false" signature="6:139" ph="..." />
+            <marker date="1520488072000" expanded="true" signature="171:2251" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="296:2249" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="401:459" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="576:676" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="686:1136" ph="/* TODO: Provide views for these actions ... */" />
+            <marker date="1520488072000" expanded="true" signature="1256:1303" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1425:1771" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1548:1677" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1830:1901" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1975:2090" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="2144:2243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Migrations/20180210185241_OptionalBookID.cs" />
+    <entry file="file://$PROJECT_DIR$/BookInfo.Tests/BookTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo.Tests/AuthorTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo.Tests/FakeBookRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="40" column="48" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo.Tests/FakeAuhtorRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" column="48" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Views/Author/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Models/Book.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="81" lean-forward="false" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Repositories/BookRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Repositories/IBookRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Views/Author/Page1.cshtml" />
+    <entry file="file://$PROJECT_DIR$/BookInfo/Repositories/IAuthorRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Repositories/AuthorRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="40" column="41" lean-forward="false" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Views/Author/AuthorEntry.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Models/Author.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Views/Book/Add.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <marker date="1520519224000" expanded="true" signature="0:41" ph="@..." />
+            <marker date="1520519224000" expanded="true" signature="43:732" ph="&lt;div.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="53:725" ph="&lt;form.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="82:198" ph="&lt;div.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="207:331" ph="&lt;div.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="340:460" ph="&lt;div.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="469:611" ph="&lt;div.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="619:713" ph="&lt;div.../&gt;" />
+            <marker date="1520519224000" expanded="true" signature="734:785" ph="&lt;p.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <marker date="1520005805000" expanded="true" signature="0:36" ph="@..." />
+            <marker date="1520005805000" expanded="true" signature="128:604" ph="&lt;nav.../&gt;" />
+            <marker date="1520005805000" expanded="true" signature="200:595" ph="&lt;ul.../&gt;" />
+            <marker date="1520005805000" expanded="true" signature="228:345" ph="&lt;li.../&gt;" />
+            <marker date="1520005805000" expanded="true" signature="350:461" ph="&lt;li.../&gt;" />
+            <marker date="1520005805000" expanded="true" signature="466:587" ph="&lt;li.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Views/Book/Edit.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding>
+            <marker date="1520519305000" expanded="true" signature="52:94" ph="@..." />
+            <marker date="1520519305000" expanded="true" signature="96:1132" ph="&lt;div.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="106:673" ph="&lt;form.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="135:254" ph="&lt;div.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="263:392" ph="&lt;div.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="467:553" ph="@..." />
+            <marker date="1520519305000" expanded="true" signature="503:553" ph="{...}" />
+            <marker date="1520519305000" expanded="true" signature="571:661" ph="&lt;p.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="688:1125" ph="&lt;form.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="758:1002" ph="&lt;div.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="1011:1113" ph="&lt;div.../&gt;" />
+            <marker date="1520519305000" expanded="true" signature="1139:1190" ph="&lt;p.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Controllers/AuthorController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <marker date="1520023355000" expanded="false" signature="6:222" ph="..." />
+            <marker date="1520023355000" expanded="true" signature="254:1616" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="303:1614" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="412:463" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="536:644" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="792:954" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="1013:1103" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="1220:1453" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="1270:1357" ph="{...}" />
+            <marker date="1520023355000" expanded="true" signature="1507:1608" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Controllers/BookController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+          <folding>
+            <marker date="1520488072000" expanded="false" signature="6:139" ph="..." />
+            <marker date="1520488072000" expanded="true" signature="171:2251" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="296:2249" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="401:459" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="576:676" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="686:1136" ph="/* TODO: Provide views for these actions ... */" />
+            <marker date="1520488072000" expanded="true" signature="1256:1303" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1425:1771" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1548:1677" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1830:1901" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="1975:2090" ph="{...}" />
+            <marker date="1520488072000" expanded="true" signature="2144:2243" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookInfo/Views/Book/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1520005805000" expanded="true" signature="34:75" ph="@..." />
+            <marker date="1520005805000" expanded="true" signature="77:442" ph="@..." />
+            <marker date="1520005805000" expanded="true" signature="102:442" ph="{...}" />
+            <marker date="1520005805000" expanded="true" signature="215:260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

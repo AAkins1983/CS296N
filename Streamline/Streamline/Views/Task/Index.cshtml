@@ -1,0 +1,17 @@
+﻿@model List<Streamline.Models.TaskItem>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task List</title>
+</head>
+<body>
+    <h1>List of Tasks</h1>
+    @foreach (var t in Model)
+    {
+        @:Task: @t.Description <br />
+        @:Category: @t.Category <br />
+        <br />
+    }
+</body>
+</html>

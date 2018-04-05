@@ -1,0 +1,16 @@
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\obj\Debug\netcoreapp2.0\MagicPonySparkleLand.Tests.csprojResolveAssemblyReference.cache
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\obj\Debug\netcoreapp2.0\MagicPonySparkleLand.Tests.csproj.CoreCompileInputs.cache
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\obj\Debug\netcoreapp2.0\MagicPonySparkleLand.Tests.AssemblyInfoInputs.cache
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\obj\Debug\netcoreapp2.0\MagicPonySparkleLand.Tests.AssemblyInfo.cs
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\bin\Debug\netcoreapp2.0\MagicPonySparkleLand.Tests.deps.json
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\bin\Debug\netcoreapp2.0\MagicPonySparkleLand.Tests.runtimeconfig.json
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\bin\Debug\netcoreapp2.0\MagicPonySparkleLand.Tests.runtimeconfig.dev.json
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\bin\Debug\netcoreapp2.0\MagicPonySparkleLand.Tests.dll
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\bin\Debug\netcoreapp2.0\MagicPonySparkleLand.Tests.pdb
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\bin\Debug\netcoreapp2.0\MagicPonySparkleLand.dll
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\bin\Debug\netcoreapp2.0\MagicPonySparkleLand.pdb
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\obj\Debug\netcoreapp2.0\MagicPonySparkleLand.Tests.dll
+C:\Users\AAkin_000\Desktop\MagicPonySparkleLand\MagicPonySparkleLand.Tests\obj\Debug\netcoreapp2.0\MagicPonySparkleLand.Tests.pdb

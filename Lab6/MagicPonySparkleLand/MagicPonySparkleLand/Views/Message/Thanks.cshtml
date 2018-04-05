@@ -1,0 +1,24 @@
+﻿@model MagicPonySparkleLand.Models.ContactFormInfo
+@{
+    ViewData["Title"] = "Thanks";
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thanks</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div>
+        <h1>Thank you, @Model.Name! Someone will get back you to soon.</h1>
+        @*<p>
+            @Model.Email
+            @Model.Message
+        </p>*@
+        <p>
+            <a href="Message/MessageList">Display Messages</a>
+        </p>
+    </div>
+</body>
+</html>

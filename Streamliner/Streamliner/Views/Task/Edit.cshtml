@@ -1,0 +1,42 @@
+﻿@using Streamliner.Models
+@model Streamliner.Models.TaskItem
+@{
+    ViewData["Title"] = "Edit Task";
+}
+<div>
+    <form method="post">
+        <div>
+            <label asp-for="Description">Task:</label><br />
+            <input asp-for="@Model.Description" />
+        </div>
+        <div>
+            <label asp-for="Category">Category:</label><br />
+            <input asp-for="@Model.Category" />
+        </div>
+        <input type="hidden" asp-for="@Model.TaskID" />
+
+        @foreach (Kiddo a in Model.Kiddos)
+        {
+            @:Kiddo: @a.Name
+        }
+        <p>
+            <input type="submit" value="Enter" class="btn btn-success" />
+        </p>
+
+    </form>
+    <br />
+    <form method="post" asp-controller="Kiddo" asp-action="Add">
+        <div>
+            <label>Name</label><br />
+            <input name="name" /><br />
+            <input type="hidden" name="bookid" value="@Model.TaskID" />
+        </div>
+        <div>
+            <input type="submit" value="Add Kiddo" class="btn btn-secondary" />
+        </div>
+    </form>
+</div>
+<br />
+<p>
+    <a asp-action="Index">Back</a>
+</p>

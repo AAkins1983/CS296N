@@ -1,0 +1,11 @@
+C:\Users\TempUser\Desktop\CS296\MagicPonySparkleLand\MagicPonySparkleLand\bin\Debug\netcoreapp2.0\TermProject.deps.json
+C:\Users\TempUser\Desktop\CS296\MagicPonySparkleLand\MagicPonySparkleLand\bin\Debug\netcoreapp2.0\TermProject.runtimeconfig.json
+C:\Users\TempUser\Desktop\CS296\MagicPonySparkleLand\MagicPonySparkleLand\bin\Debug\netcoreapp2.0\TermProject.runtimeconfig.dev.json
+C:\Users\TempUser\Desktop\CS296\MagicPonySparkleLand\MagicPonySparkleLand\bin\Debug\netcoreapp2.0\TermProject.dll
+C:\Users\TempUser\Desktop\CS296\MagicPonySparkleLand\MagicPonySparkleLand\bin\Debug\netcoreapp2.0\TermProject.pdb
+C:\Users\TempUser\Desktop\CS296\MagicPonySparkleLand\MagicPonySparkleLand\obj\Debug\netcoreapp2.0\TermProject.csprojResolveAssemblyReference.cache
+C:\Users\TempUser\Desktop\CS296\MagicPonySparkleLand\MagicPonySparkleLand\obj\Debug\netcoreapp2.0\TermProject.csproj.CoreCompileInputs.cache
+C:\Users\TempUser\Desktop\CS296\MagicPonySparkleLand\MagicPonySparkleLand\obj\Debug\netcoreapp2.0\TermProject.AssemblyInfoInputs.cache
+C:\Users\TempUser\Desktop\CS296\MagicPonySparkleLand\MagicPonySparkleLand\obj\Debug\netcoreapp2.0\TermProject.AssemblyInfo.cs
+C:\Users\TempUser\Desktop\CS296\MagicPonySparkleLand\MagicPonySparkleLand\obj\Debug\netcoreapp2.0\TermProject.dll
+C:\Users\TempUser\Desktop\CS296\MagicPonySparkleLand\MagicPonySparkleLand\obj\Debug\netcoreapp2.0\TermProject.pdb

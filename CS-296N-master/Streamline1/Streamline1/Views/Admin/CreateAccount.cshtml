@@ -1,0 +1,34 @@
+﻿@model Streamline1.Models.AccountViewModel
+@{
+    ViewData["Title"] = "Create Account";
+}
+<h4>Create Account</h4>
+<!-- The validation summary will include any arrors with the password or user creation -->
+<div asp-validation-summary=" All"></div>
+<form asp-action="CreateAccount" method="post">
+    <p>
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" />
+    </p>
+    <p>
+        <label asp-for="Username">Username:</label>
+        <input asp-for="Username" />
+    </p>
+    <p>
+        <label asp-for="AccountType">Account Type:</label>
+        <input asp-for="AccountType"/>
+    </p>
+    @*<p>
+        <label asp-for="Email">Email:</label>
+        <input asp-for="Email" />
+    </p>*@
+    <p>
+        <label asp-for="Password">Password:</label>
+        <input asp-for="Password" type="password" />
+    </p>
+    <p>
+        <button type="submit">Create</button>
+    </p>
+    <a asp-action="ShowAccounts">Show All Accounts</a><br />
+    <a asp-action="Index">Cancel</a>
+</form>

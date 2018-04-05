@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Authentication + Authorization</title>
+    <style>
+        body {
+          font-family: "Arial", "Helvetica", "sans-serif";
+        }
+
+        #week09 {
+          background-color: #f8ff2e;
+        }
+
+        code {
+          display:block;
+          font-size: larger;
+          background-color: lightgoldenrodyellow;
+          max-height:400px;
+          width:75%;
+          overflow:scroll;
+        }
+
+        .exercise {
+          background-color: #c6ffe2;
+        }
+		</style>
+  </head>
+  <body>
+    <b>CS296N Web Development 2: ASP.NET &nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;</b> <br>
+    <header>
+      <h1> <i><b>Identity Authentication and Authorization<br>
+          </b></i></h1>
+      <b>Topics by week </b>
+      <table style="width: 807px; height: 127px;" border="1">
+        <tbody>
+          <tr>
+            <td id="week01">1. Intro to MVC</td>
+            <td id="week06">6. Bower, Bootstrap and Front-End Libraries</td>
+          </tr>
+          <tr>
+            <td id="week02">2. Views and controllers</td>
+            <td>7. No new topic</td>
+          </tr>
+          <tr>
+            <td id="week03">3. Repositories and Unit testing</td>
+            <td id="week08" style="width: 395.333px;">8. User Management
+              with Identity</td>
+          </tr>
+          <tr>
+            <td id="week04">4. Entity Framework + Database</td>
+            <td id="week09">9. Authentication and Authorization</td>
+          </tr>
+          <tr>
+            <td id="week05">5. DomainModel + EF + DI - Revisited</td>
+            <td id="week10">10. Deploying to a Linux server </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <h2><b><b>Contents</b> </b></h2>
+      <div>
+        <ul>
+          <li><a href="#topic1">Introduction</a></li>
+          <li><a href="#topic2">Review </a></li>
+          <li><a href="#topic3">Login</a></li>
+          <li><a href="#topic4">Authorization</a></li>
+          <li><a href="#topic5">Role Management</a></li>
+          <li><a
+href="file:///Volumes/DataCard/Repos/CS296N-CourseMaterials/LessonPlans/CS296N-LP-WK09D1-W18-Identity-A+A.html#topic7">BookInfo
+              Web App Example</a></li>
+          <li><a href="#topic6">Further Reading</a></li>
+          <li><a href="#topic8">Next Class</a></li>
+        </ul>
+      </div>
+    </header>
+    <section>
+      <hr>
+      <article id="topic1">
+        <h2>Introduction</h2>
+        <ul>
+          <li>Review lab due dates on Moodle</li>
+        </ul>
+        <h3>Announcements</h3>
+        <ul>
+          <li>Scholarship</li>
+          <li>Hack for a cause </li>
+        </ul>
+        <h3>Main focus today</h3>
+        <ul>
+          <li>Registration and login<br>
+          </li>
+        </ul>
+      </article>
+      <hr>
+      <article id="topic2">
+        <h2>Review - Identity</h2>
+        <ul>
+          <li>Configure Identity in Startup.cs, <br>
+          </li>
+          <ul>
+            <li>in the ConfigureServices method:</li>
+            <ul>
+              <li>Add the Identity Service</li>
+            </ul>
+            <li>in the Configure method:<br>
+            </li>
+            <ul>
+              <li><span style="font-weight: bold;">app.UseAuthentication
+                  must precede app.UseMvc !!!</span><span style="
+                  font-style: italic;"></span></li>
+            </ul>
+          </ul>
+          <li>In a controller used to manage users:<span style="
+              font-style: italic;"></span></li>
+          <ul>
+            <li>Add a constructor parameter for dependency injection of
+              a <span style="font-style: italic;">UserManager</span>
+              object<span style=" font-style: italic;"></span></li>
+          </ul>
+          <li>&nbsp;To restrict access to only allow authenticated users,
+            add the <span style="font-style: italic;">[Authorize]</span>
+            attribute to:<span style=" font-style: italic;"></span></li>
+          <ul>
+            <li>Controllers</li>
+            <li>Action methods<span style=" font-style: italic;"><br>
+              </span></li>
+          </ul>
+        </ul>
+      </article>
+      <hr>
+      <article id="topic3">
+        <h2>Login<br>
+        </h2>
+        <ul>
+          <li>Add an account controller with:</li>
+          <ul>
+            <li>Login and logout action methods</li>
+          </ul>
+          <li>Add Login and logout views</li>
+          <li>Add the<span style="font-family: Courier
+              New,Courier,monospace;">[Authorize]</span> attributes to
+            methods that require authorization</li>
+          <ul>
+            <li>This will cause a redirect to <span style="font-style:
+                italic;">Account/Login</span></li>
+            <li>And will have a parameter for the return URL. For
+              example:<br>
+              <span style="font-style: italic;">?ReturnUrl=%2FBook%2FAdd</span><br>
+            </li>
+          </ul>
+        </ul>
+        <br>
+      </article>
+      <hr>
+      <article id="topic4">
+        <h2>Authorization<br>
+        </h2>
+        <br>
+        [Authorize]<br>
+        The ASP.NET Core platform provides information about the user
+        through the HttpContext object,<br>
+        which is used by the Authorize attribute to check the status of
+        the current request and see whether the user<br>
+        has been authenticated.<br>
+      </article>
+      <hr>
+      <article id="topic5">
+        <h2>Role Management</h2>
+        Create and edit user roles using the <span style="font-style:
+          italic;">Role</span><span style="font-style: italic;">Manager</span>
+        class<br>
+        Edit user roles to add a user<br>
+        <br>
+      </article>
+      <hr>
+      <article id="topic6">
+        <article id="topic7">
+          <h2>Web App Examples - BookInfo<br>
+          </h2>
+          <h3>User login and logout and authorization of controller
+            methods<br>
+          </h3>
+          <a
+href="https://github.com/LCC-CIT/CS296N-BookInfo-Core-2/tree/AddIdentity"
+            target="_blank">GitHub Repository: CS296N-BookInfo-Core-2 -
+            AddLogin branch</a><br>
+          <br>
+          <h3>Role management and authorization based on roles</h3>
+          <h3> </h3>
+        </article>
+        <a
+href="https://github.com/LCC-CIT/CS296N-BookInfo-Core-2/tree/AddIdentity"
+          target="_blank">GitHub Repository: CS296N-BookInfo-Core-2 -
+          UserRoles branch</a> </article>
+      <hr>
+      <article id="topic7">
+        <h2>Reading</h2>
+        <span style="font-weight: bold;">Freeman, </span><span
+          style="font-weight: bold;"><span style="font-style: italic;">Pro
+            ASP.NET Core MVC 2</span></span>
+        <ul>
+          <li>Ch. 12 - SportsStore: Sections on Identity - <a
+              href="SportsStoreCh12.html" target="_blank">Notes</a></li>
+          <li>Ch. 29 - Applying ASP.NET Core Identity: Authorizing users
+            with roles<br>
+          </li>
+        </ul>
+        <span style="font-weight: bold;">Microsoft ASP.NET Core MVC
+          Tutorial</span>
+        <ul>
+          <li> <a
+href="https://docs.microsoft.com/en-us/aspnet/core/security/authorization/"
+              target="_blank">Authorization in ASP.NET Core</a></li>
+        </ul>
+      </article>
+      <hr>
+      <article id="topic8">
+        <h2>Next Class</h2>
+        <p>We will...</p>
+      </article>
+    </section>
+    <hr>
+    <footer>Written by Brian Bird, Winter 2018 </footer>
+  </body>
+</html>

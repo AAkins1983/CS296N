@@ -1,0 +1,11 @@
+C:\Users\AAkin_000\Desktop\Manda\Lab4\DependencyInjection\DependencyInjection\bin\Debug\netcoreapp2.0\DependencyInjection.deps.json
+C:\Users\AAkin_000\Desktop\Manda\Lab4\DependencyInjection\DependencyInjection\bin\Debug\netcoreapp2.0\DependencyInjection.runtimeconfig.json
+C:\Users\AAkin_000\Desktop\Manda\Lab4\DependencyInjection\DependencyInjection\bin\Debug\netcoreapp2.0\DependencyInjection.runtimeconfig.dev.json
+C:\Users\AAkin_000\Desktop\Manda\Lab4\DependencyInjection\DependencyInjection\bin\Debug\netcoreapp2.0\DependencyInjection.dll
+C:\Users\AAkin_000\Desktop\Manda\Lab4\DependencyInjection\DependencyInjection\bin\Debug\netcoreapp2.0\DependencyInjection.pdb
+C:\Users\AAkin_000\Desktop\Manda\Lab4\DependencyInjection\DependencyInjection\obj\Debug\netcoreapp2.0\DependencyInjection.csprojResolveAssemblyReference.cache
+C:\Users\AAkin_000\Desktop\Manda\Lab4\DependencyInjection\DependencyInjection\obj\Debug\netcoreapp2.0\DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\AAkin_000\Desktop\Manda\Lab4\DependencyInjection\DependencyInjection\obj\Debug\netcoreapp2.0\DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\AAkin_000\Desktop\Manda\Lab4\DependencyInjection\DependencyInjection\obj\Debug\netcoreapp2.0\DependencyInjection.AssemblyInfo.cs
+C:\Users\AAkin_000\Desktop\Manda\Lab4\DependencyInjection\DependencyInjection\obj\Debug\netcoreapp2.0\DependencyInjection.dll
+C:\Users\AAkin_000\Desktop\Manda\Lab4\DependencyInjection\DependencyInjection\obj\Debug\netcoreapp2.0\DependencyInjection.pdb

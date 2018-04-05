@@ -1,0 +1,14 @@
+﻿@model List<MPSL.Models.MessUser>
+@{
+    ViewData["Title"] = "User List";
+}
+@foreach (var mu in Model)
+{
+    @:<p>
+    @:Email: @mu.Email  <br />
+    @:Username: @mu.Username <br />
+
+    <a asp-action="Edit" asp-route-id="@mu.UserID" class="btn btn-primary">Edit</a>
+    <a asp-action="Delete" asp-route-id="@mu.UserID" class="btn btn-danger">Delete</a>
+    @:</p>
+}

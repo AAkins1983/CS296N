@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Add Task";
+}
+
+<div>
+    <form method="post">
+        <div>
+            <label for="description">Task:</label><br />
+            <input name="description" id="description" />
+        </div>
+        <div>
+            <label for="category">Category:</label><br />
+            <input name="category" id="category" />
+        </div>
+        <div>
+            <input type="submit" value="Enter" class="btn btn-success" />
+        </div>
+    </form>
+</div>
+<p>
+    <a asp-action="Index">Back</a>
+</p>

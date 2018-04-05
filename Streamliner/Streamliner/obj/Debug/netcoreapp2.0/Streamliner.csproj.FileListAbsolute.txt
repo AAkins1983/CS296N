@@ -1,0 +1,10 @@
+C:\Users\TempUser\Desktop\Streamliner\Streamliner\obj\Debug\netcoreapp2.0\Streamliner.csproj.CoreCompileInputs.cache
+C:\Users\TempUser\Desktop\Streamliner\Streamliner\obj\Debug\netcoreapp2.0\Streamliner.AssemblyInfoInputs.cache
+C:\Users\TempUser\Desktop\Streamliner\Streamliner\obj\Debug\netcoreapp2.0\Streamliner.AssemblyInfo.cs
+C:\Users\TempUser\Desktop\Streamliner\Streamliner\bin\Debug\netcoreapp2.0\Streamliner.deps.json
+C:\Users\TempUser\Desktop\Streamliner\Streamliner\bin\Debug\netcoreapp2.0\Streamliner.runtimeconfig.json
+C:\Users\TempUser\Desktop\Streamliner\Streamliner\bin\Debug\netcoreapp2.0\Streamliner.runtimeconfig.dev.json
+C:\Users\TempUser\Desktop\Streamliner\Streamliner\bin\Debug\netcoreapp2.0\Streamliner.dll
+C:\Users\TempUser\Desktop\Streamliner\Streamliner\bin\Debug\netcoreapp2.0\Streamliner.pdb
+C:\Users\TempUser\Desktop\Streamliner\Streamliner\obj\Debug\netcoreapp2.0\Streamliner.dll
+C:\Users\TempUser\Desktop\Streamliner\Streamliner\obj\Debug\netcoreapp2.0\Streamliner.pdb

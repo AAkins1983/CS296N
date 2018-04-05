@@ -1,0 +1,35 @@
+﻿@using Streamline1.Models
+@model Streamline1.Models.Kiddo
+@{
+    ViewData["Title"] = "Edit Kiddo";
+}
+
+<div class="text-info" asp-validation-summary="All"></div>
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label asp-for="Name">Name:</label><br />
+        <input asp-for="@Model.Name" class="form-control" />
+    </div>
+    <input type="hidden" asp-for="@Model.KiddoID" /><br />
+
+    @foreach (TaskItem t in Model.TaskItems)
+    {
+        @:Task: @t.Description
+        @:Category: @t.Category
+    }
+
+    <button class="btn btn-info" type="submit">Submit</button>
+</form>
+<br />
+@*<form method="post" asp-controller="TaskItem" asp-action="Add">
+            <div>
+                <label>Task:</label><br />
+                <input name="taskItem" /><br />
+                <input type="hidden" name="kiddoid" value="@Model.KiddoID" /><br />
+            </div>
+            <div>
+                <input type="submit" value="Submit" class="btn btn-info" />
+            </div>
+        </form>
+    </div>
+    <br />*@

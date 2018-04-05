@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicPonySparkleLand", "MagicPonySparkleLand\MagicPonySparkleLand.csproj", "{5BA4534F-6E36-45E2-BD00-00BEDD53B505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicPonySparkleLand.Tests", "MagicPonySparkleLand.Tests\MagicPonySparkleLand.Tests.csproj", "{A074D5FD-0882-4131-925A-6A5C081A8647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BA4534F-6E36-45E2-BD00-00BEDD53B505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA4534F-6E36-45E2-BD00-00BEDD53B505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA4534F-6E36-45E2-BD00-00BEDD53B505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA4534F-6E36-45E2-BD00-00BEDD53B505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A074D5FD-0882-4131-925A-6A5C081A8647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A074D5FD-0882-4131-925A-6A5C081A8647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A074D5FD-0882-4131-925A-6A5C081A8647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A074D5FD-0882-4131-925A-6A5C081A8647}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CE6D8C3-65F3-430D-BA01-F02CC1F2E054}
+	EndGlobalSection
+EndGlobal

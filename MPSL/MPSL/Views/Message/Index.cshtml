@@ -1,0 +1,18 @@
+﻿@model List<MPSL.Models.Message>
+@{
+    ViewData["Title"] = "Message List";
+}
+@foreach (var m in Model)
+{
+    @:Message: @m.MessageText <br />
+    @:Date: @m.Date.ToString("yyyy") <br />
+    @:Subject: @m.Subject <br />
+    foreach (var mu in m.MessUsers)
+    {
+        @:Email: @mu.Email <br />
+        @:Username: @mu.Username <br />
+    }
+    <a asp-action="Edit" asp-route-id="@m.MessageID" class="btn btn-primary">Edit</a>
+    <a asp-action="Delete" asp-route-id="@m.MessageText" class="btn btn-danger">Delete</a>
+    <br />
+}

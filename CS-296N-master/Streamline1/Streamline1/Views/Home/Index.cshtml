@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div class="text-center">
+        <h4>I thought raising a kid was the hardest thing I would ever have to do...</h4>
+        <h4>...then I had two.</h4>
+    </div>
+    <div class="text-center">
+        <img src="~/images/mom.png" class="img-fluid" /><br />
+    </div>
+    <div class="text-center">
+    <nav class="navbar navbar-light bg-light">
+        <form class="form-inline">
+            <a href="Kiddo/Index"><button class="btn btn-info" type="button">Show All Kiddos</button></a>
+            <a href="Kiddo/Add"><button class="btn btn-info" type="button">Add Kiddo</button></a>
+            <a href="TaskItem/Index"><button class="btn btn-info" type="button">Show All Tasks</button></a>
+            <a href="#"><button class="btn btn-info" type="button">Add Task (disabled)</button></a>
+            <a href="Account/Login"><button class="btn btn-info" type="button">Login</button></a>
+            <a href="Admin/CreateAccount"><button class="btn btn-info" type="button">Create Account</button></a>
+            <a href="Admin/Index"><button class="btn btn-info" type="button">Admin</button></a>
+        </form>
+    </nav>
+        </div>
+    @*<div class="text-center">
+        <a class="btn btn-info" href="Kiddo/Index" role="button">Show All Kiddos</a>
+        <a class="btn btn-info" href="Kiddo/Add" role="button">Add Kiddo</a>
+        <a class="btn btn-info" href="TaskItem/Index" role="button">Show All Tasks</a>
+        <a class="btn btn-info" href="#" role="button">Add Task (disabled)</a>
+        <a class="btn btn-info" href="Account/Login" role="button">Login</a>
+        <a class="btn btn-info" href="Admin/CreateAccount" role="button">Create Account</a>
+    </div>*@
+</body>
+</html>

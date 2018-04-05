@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Message>
+@foreach (var m in Model)
+{
+<div>
+    <h4>Date: @m.Date.ToString()</h4>
+    <h4>From: @m.Name</h4>
+    <h4>Email: @m.Email</h4>
+    <h4>Message: @m.MessageText</h4>
+</div>
+}

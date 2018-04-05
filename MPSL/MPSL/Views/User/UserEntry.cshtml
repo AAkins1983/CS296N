@@ -1,0 +1,24 @@
+﻿@model MPSL.Models.MessUser
+@{
+    ViewData["Title"] = "User";
+}
+<div>
+    <form method="post">
+        <div>
+            <label for="Email">Email:</label><br />
+            <input name="email" value="@Model.Email" />
+        </div>
+        <div>
+            <label for="Email">Username:</label><br />
+            <input name="email" value="@Model.Username" />
+        </div>
+        <input name="id" value="@Model.MessUserID" type="hidden" />
+        <input name="messageid" value="@Model.MessageID" type="hidden" />
+        <div>
+            <input type="submit" value="Enter" class="btn btn-success" />
+        </div>
+    </form>
+</div>
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>

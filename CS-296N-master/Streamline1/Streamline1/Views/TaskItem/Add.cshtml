@@ -1,0 +1,45 @@
+﻿@model Streamline1.Models.TaskItem
+@{
+    ViewData["Title"] = "TaskItem";
+}
+
+<div>
+    <form method="post">
+        <div>
+            <label for="description">Description:</label><br />
+            <input name="description" id="description" />
+        </div>
+        <div>
+            <label for="category">Category:</label><br />
+            <input name="category" id="category" />
+        </div><br />
+        @*<div>
+            <label for="kiddo">Assign To:</label><br />
+            <input name="kiddo" id="kiddo" />
+        </div>*@
+       <div>
+            <input type="submit" value="Enter" class="btn btn-info" />
+        </div>
+    </form>
+</div>
+@*<div>
+    <form method="post">
+        <div>
+            <label for="description">Description:</label><br />
+            <input name="description" value="@Model.Description" />
+        </div>
+        <div>
+            <label for="category">Category</label><br />
+            <input name="category" value="@Model.Category" />
+        </div>
+        <input name="taskitemid" value="@Model.TaskItemID" type="hidden" />
+        <input name="kiddoid" value="@Model.KiddoID" type="hidden" />
+        <div>
+            <input type="submit" value="Enter" class="btn btn-info" />
+        </div>
+    </form>
+</div>*@<br />
+<p>
+    <a asp-action="Index" class="btn btn-info">Back</a>
+</p>
+

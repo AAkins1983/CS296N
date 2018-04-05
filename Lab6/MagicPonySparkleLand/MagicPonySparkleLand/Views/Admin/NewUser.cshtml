@@ -1,0 +1,36 @@
+﻿@model MagicPonySparkleLand.Models.NewUserViewModel
+@{
+    ViewData["Title"] = "New User";
+}
+<h4>New User</h4>
+
+<!-- The validation summary will include any arrors with the password or user creation -->
+<div asp-validation-summary=" All"></div>
+<form asp-action="NewUser" method="post">
+    <p>
+        <label asp-for="FirstName">First Name</label>
+        <input asp-for="FirstName" />
+    </p>
+    <p>
+        <label asp-for="LastName">Last Name</label>
+        <input asp-for="LastName" />
+    </p>
+    <p>
+        <label asp-for="UserName">User Name</label>
+        <input asp-for="UserName" />
+    </p>
+    <p>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+    </p>
+    <p>
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" />
+    </p>
+    <p>
+        <button type="submit">Create</button>
+    </p>
+    <a asp-action="ShowUsers">Show All Users</a><br />
+    <a asp-action="Index">Cancel</a>
+</form>
+

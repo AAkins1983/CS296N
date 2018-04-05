@@ -1,0 +1,12 @@
+﻿@model List<Streamliner.Models.Kiddo>
+@{
+    ViewData["Title"] = "Kiddo List";
+}
+@foreach (var k in Model)
+{
+    @:<p>
+        @:Name: @k.Name <br />
+        <a asp-action="Edit" asp-route-id="@k.KiddoID" class="btn btn-primary">Edit</a>
+        <a asp-action="Delete" asp-route-id="@k.KiddoID" class="btn btn-danger">Delete</a>
+        @:</p>
+}

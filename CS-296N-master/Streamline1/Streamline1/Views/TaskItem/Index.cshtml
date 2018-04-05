@@ -1,0 +1,13 @@
+﻿@model List<Streamline1.Models.TaskItem>
+@{
+    ViewData["Title"] = "Task List";
+}
+
+@foreach (var t in Model)
+{
+    @:<p>
+    @:Task: @t.Description <br />
+    @:Category: @t.Category <br />
+    <a asp-action="Delete" asp-route-id="@t.TaskItemID" class="btn btn-info">Done!</a>
+    @:</p>
+}
